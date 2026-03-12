@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#E3F2FD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Logo -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Titulo -->
+    <TextView
+        android:text="App Notas"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Usuario -->
+    <EditText
+        android:id="@+id/etUsuario"
+        android:hint="Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Contraseña -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón login -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Ingresar"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Botón registro -->
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:text="Crear Usuario"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
